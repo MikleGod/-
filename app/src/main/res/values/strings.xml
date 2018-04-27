@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RealEstateAgentAssistant</string>
+    <string name="title_home">Calls</string>
+    <string name="title_dashboard">Meetings</string>
+    <string name="title_activity_basic">BasicActivity</string>
+    <string name="date_of_call">Date of call</string>
+    <string name="name_of_client">Name of client</string>
+    <string name="phone_number">Phone number</string>
+    <string name="results">Results</string>
+    <string name="save_changes">Save changes</string>
+</resources>
