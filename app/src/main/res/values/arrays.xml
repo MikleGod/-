@@ -1,9 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="catlist">
-        <item>Барсик</item>
-        <item>Мурзик</item>
-        <item>Васька</item>
-        <item>Рыжик</item>>
+        <item>None</item>
+        <item>Meeting</item>
+        <item>Call</item>
+    </string-array>
+    <string-array name="client_aims">
+        <item>Purchase</item>
+        <item>Sale</item>
     </string-array>
 </resources>

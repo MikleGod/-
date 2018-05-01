@@ -6,6 +6,18 @@
     <string name="date_of_call">Date of call</string>
     <string name="name_of_client">Name of client</string>
     <string name="phone_number">Phone number</string>
-    <string name="results">Results</string>
+    <string name="results">Results:</string>
     <string name="save_changes">Save changes</string>
+    <string name="call_durability">Call durability</string>
+    <string name="call_notes">Call notes</string>
+    <string name="address_of_object">Address of object</string>
+    <string name="square_of_object">Square of object</string>
+    <string name="object_cost">Cost of object</string>
+    <string name="cost_of_square_meter">Cost of square meter</string>
+    <string name="client_aim">Client aim:</string>
+    <string name="complete_meeting">Complete meeting</string>
+    <string name="meeting_date">Date of meeting</string>
+    <string name="meeting_notes">Meeting notes</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

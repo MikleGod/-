@@ -6,7 +6,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.epam.mikle.realestateagentassistant.MainActivity">
+    tools:context="com.epam.mikle.realestateagentassistant.presentation.component_main.MainActivity">
 
     <android.support.v4.view.ViewPager
         android:id="@+id/pager"
@@ -20,7 +20,16 @@
         </android.support.v4.view.PagerTabStrip>
     </android.support.v4.view.ViewPager>
 
+    <android.support.design.widget.FloatingActionButton
+        app:srcCompat="@drawable/ic_plus"
+        android:layout_margin="@dimen/fab_margin"
+        android:layout_above="@+id/bottom_navigation"
+        android:layout_alignRight="@+id/bottom_navigation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
     <android.support.design.widget.BottomNavigationView
+        android:id="@+id/bottom_navigation"
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
