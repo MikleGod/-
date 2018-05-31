@@ -1,7 +1,11 @@
 package com.epam.mikle.realestateagentassistant.presentation.component_main.presenter;
 
 import com.epam.mikle.realestateagentassistant.R;
-import com.epam.mikle.realestateagentassistant.presentation.component_main.MainActivity;
+import com.epam.mikle.realestateagentassistant.presentation.component_main.presenter.impl.CallsHistoryFrPr;
+import com.epam.mikle.realestateagentassistant.presentation.component_main.presenter.impl.CallsPlansFrPr;
+import com.epam.mikle.realestateagentassistant.presentation.component_main.presenter.impl.MeetingsHistoryFrPr;
+import com.epam.mikle.realestateagentassistant.presentation.component_main.presenter.impl.MeetingsPlansFrPr;
+import com.epam.mikle.realestateagentassistant.presentation.component_main.view.MainActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -26,7 +30,7 @@ public class PresenterManager {
 
     public FragmentPresenter getPresenter(int position){
         FragmentPresenter answer = null;
-        switch (MainActivity.getActiveBottomNavigationItem()){
+        switch (MainActivity.getPresenter().getActiveBottomNavigationItem()){
             case R.id.navigation_dashboard:
                 answer = getMeetingsPresenter(position);
                 break;

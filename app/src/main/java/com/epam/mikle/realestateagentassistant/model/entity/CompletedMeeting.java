@@ -1,8 +1,16 @@
 package com.epam.mikle.realestateagentassistant.model.entity;
 
-/**
- * Created by Сергей on 30.04.2018.
- */
 
-public class CompletedMeeting extends Call{
+import java.io.Serializable;
+
+public class CompletedMeeting extends Meeting {
+    private String results;
+
+    public String getResults() {
+        return results;
+    }
+
+    public void setResults(String results) {
+        this.results = results;
+    }
 }

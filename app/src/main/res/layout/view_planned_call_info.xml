@@ -10,7 +10,6 @@
         android:layout_height="wrap_content">
         <EditText
             android:id="@+id/date_edit_text"
-            android:inputType="datetime"
             android:hint="@string/date_of_call"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -86,7 +85,7 @@
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/save_changes"/>
+        android:text="@string/change"/>
 
 
 

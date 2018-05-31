@@ -1,8 +1,10 @@
 package com.epam.mikle.realestateagentassistant.model.dao;
 
-/**
- * Created by Сергей on 30.04.2018.
- */
+import com.epam.mikle.realestateagentassistant.model.entity.PlannedMeeting;
+
+import java.util.List;
+
 
 public interface PlannedMeetingDao  extends BaseDao {
+    List<PlannedMeeting> findAll();
 }

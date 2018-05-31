@@ -14,7 +14,6 @@
         android:layout_height="wrap_content">
         <EditText
             android:id="@+id/date_edit_text"
-            android:inputType="datetime"
             android:hint="@string/meeting_date"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
@@ -121,6 +120,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="4dp" />
         <Spinner
+            android:id="@+id/client_aim_sp"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:entries="@array/client_aims"/>
@@ -145,17 +145,17 @@
     </android.support.design.widget.TextInputLayout>
 
     <Button
-        android:id="@+id/save_change_button"
+        android:id="@+id/button"
         android:layout_below="@+id/notes_tip"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/save_changes"/>
     <Button
         android:id="@+id/complete_button"
-        android:layout_below="@+id/save_change_button"
+        android:layout_below="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/complete_meeting"/>
+        android:text="@string/change"/>
 
 
 

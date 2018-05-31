@@ -1,8 +1,9 @@
 package com.epam.mikle.realestateagentassistant.model.dao;
 
-/**
- * Created by Сергей on 30.04.2018.
- */
+
+import com.epam.mikle.realestateagentassistant.model.entity.BaseEntity;
 
 public interface BaseDao {
+    boolean insert(BaseEntity entity);
+    boolean update(BaseEntity entity);
 }
